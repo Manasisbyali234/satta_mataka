@@ -1,0 +1,135 @@
+.card {
+  background: #1a1a2e;
+  border: 1px solid #c0392b;
+  border-radius: 10px;
+  margin: 8px 12px;
+  overflow: hidden;
+}
+
+.card-header {
+  background: #c0392b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 14px;
+}
+
+.card-name {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.live-badge {
+  background: #27ae60;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.card-timing {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #16213e;
+  padding: 8px 0;
+}
+
+.time-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.time-label {
+  color: #aaa;
+  font-size: 11px;
+}
+
+.time-value {
+  color: #f39c12;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.time-divider {
+  width: 1px;
+  height: 30px;
+  background: #333;
+}
+
+.card-results {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #0f3460;
+  padding: 12px 0;
+}
+
+.result-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.jodi-block {
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+.result-label {
+  color: #aaa;
+  font-size: 11px;
+}
+
+.jodi-label {
+  color: #f39c12;
+  font-weight: bold;
+}
+
+.result-value {
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.open-val { color: #3498db; }
+.close-val { color: #2ecc71; }
+
+.jodi-val {
+  color: #f39c12;
+  font-size: 26px;
+  letter-spacing: 3px;
+}
+
+.card-footer {
+  display: flex;
+  border-top: 1px solid #333;
+}
+
+.chart-btn, .play-btn {
+  flex: 1;
+  padding: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.chart-btn {
+  color: #3498db;
+  border-right: 1px solid #333;
+}
+
+.play-btn {
+  color: #27ae60;
+}
+
+.chart-btn:hover { background: #16213e; }
+.play-btn:hover { background: #16213e; }

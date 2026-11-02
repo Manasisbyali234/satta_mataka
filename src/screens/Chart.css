@@ -1,0 +1,61 @@
+.chart-page { background: #0d0d1a; min-height: 100vh; }
+
+.chart-subheader {
+  background: #16213e;
+  color: #f39c12;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 8px 14px;
+  border-bottom: 1px solid #0f3460;
+}
+
+.chart-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  overflow-x: auto;
+  padding: 12px;
+}
+
+.chart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.chart-table thead tr {
+  background: #0f3460;
+  border-bottom: 2px solid #c0392b;
+}
+
+.chart-table th {
+  color: #f39c12;
+  font-size: 13px;
+  padding: 8px;
+  text-align: center;
+}
+
+.chart-table td {
+  padding: 7px 8px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.even { background: #111122; }
+.odd  { background: #16213e; }
+
+.day-cell  { color: #aaa; }
+.open-cell { color: #3498db; font-weight: 600; }
+.jodi-cell { color: #f39c12; font-weight: bold; font-size: 15px; }
+.close-cell{ color: #2ecc71; font-weight: 600; }
+
+.chart-note {
+  margin: 16px;
+  padding: 12px;
+  background: #1a0000;
+  border: 1px solid #c0392b;
+  border-radius: 8px;
+  color: #aaa;
+  font-size: 11px;
+  text-align: center;
+  max-width: 568px;
+  margin: 16px auto;
+}

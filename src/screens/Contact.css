@@ -1,0 +1,57 @@
+.contact-page { background: #0d0d1a; min-height: 60vh; }
+
+.page-hero {
+  background: linear-gradient(135deg, #0f3460, #16213e);
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 2px solid #c0392b;
+}
+
+.page-hero h1 { font-size: 28px; color: #fff; margin-bottom: 8px; }
+.page-hero p  { color: #aaa; font-size: 14px; }
+
+.contact-wrap {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px 40px;
+}
+
+.contact-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #1a1a2e;
+  border: 1px solid #c0392b;
+  border-radius: 12px;
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.contact-card:hover {
+  background: #16213e;
+  transform: translateY(-2px);
+}
+
+.cc-icon { font-size: 32px; }
+
+.contact-card strong { display: block; font-size: 15px; margin-bottom: 4px; }
+.contact-card p { color: #f39c12; font-size: 13px; margin: 0; }
+
+.disclaimer-box {
+  background: #1a0000;
+  border: 1px solid #c0392b;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.disclaimer-box h3 { color: #c0392b; margin-bottom: 12px; font-size: 16px; }
+.disclaimer-box p  { color: #888; font-size: 13px; line-height: 1.8; }

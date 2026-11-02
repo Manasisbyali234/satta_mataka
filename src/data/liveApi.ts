@@ -6,7 +6,7 @@ export type LiveResult = {
 };
 
 export async function fetchLiveResults(): Promise<LiveResult[]> {
-  const res = await fetch('http://localhost:4000/results');
+  const res = await fetch('https://proxy-server1-gamma.vercel.app/api/results');
   const data = await res.json();
   if (!data.success) throw new Error(data.error);
   return data.results;
